@@ -1,0 +1,42 @@
+<!DOCTYPE>
+<html lang="en">
+    <head>
+        <title>Get Started Page</title>
+        <link rel="stylesheet" href="/CSS%20files/Get_started.css">
+    </head>
+    <body>
+        <div id="nav1">
+          <span><a href="HomePage.html">Skill</a></span>
+          <span class="span1"><a href="HomePage.html">Rise</a></span>
+        </div>
+        <div id="mainBox">
+             <div class="container">
+            <h3><p class="skill">Skill</p><p class="rise">Rise</p></h3>
+            <p class="start">Create your account to get started</p>
+            <form action="">
+                <div class="group-one">
+                    <label for="name">Full Name</label>
+                    <input type="text"  class="input-tag" placeholder="Enter your full name" id="name" required>
+                </div>
+                 <div class="group-one">
+                    <label for="mail">Email</label>
+                    <input type="text" class="input-tag" placeholder="Enter your email" id="mail" required>
+                </div>
+                 <div class="group-one">
+                    <label for="pw">Password</label>
+                    <input type="text" class="input-tag" placeholder="Create a password" id="pw" required>
+                </div>
+                <button class="btn">Create Account -></button>
+            </form>
+            <pree>Already have an account?<p class="sign-in"><a>Sign in</a></p></pree>
+        </div>
+        </div>
+       
+        <script>
+            var neww=document.querySelector('.btn')
+            neww.addEventListener("click",function(){
+                alert("Acoount is Created Successfully")
+            })
+        </script>
+    </body>
+</html>

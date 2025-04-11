@@ -1,0 +1,347 @@
+
+            *{
+      padding:0px;
+      margin:0px;
+      box-sizing:border-box;
+        font-family: sans-serif;
+    }
+    html,body{
+      width:100%;
+      height:100%;
+        background-color:black;
+    }
+    #main{
+        width:100%;
+        padding:20px;
+        background-color:black;
+
+    }
+    #nav{
+  width:100%;
+  height:30%;
+    padding: 10px;
+  background-color:#18181B;
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  border-radius: 10px;
+}  
+#nav1{
+   width:10%;
+   font-weight: bold;
+   font-size: 20px;
+    color:#FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding:6px 0px 6px 0px;
+}
+#nav2{
+  width:30%;
+    color:#A1A1AA;
+    opacity: 0.8;
+    border:2px solid #18181B;
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+}
+#nav #nav2 a{
+    text-decoration: none;
+     color:#FFFFFF;
+    padding: 5px;
+}
+#nav #nav2 a:hover{
+    background-color:black;
+    color:aliceblue;
+    border:1px solid white;
+    border-radius:4px;
+}
+#nav3{
+  width:40%;
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+}
+button{
+    border:white;
+    border-radius: 10px;
+}
+.btn1{
+    background-color:#18181Bcc;
+    color:#A1A1AA;
+    padding: 8px 16px;
+}
+.btn1 a{
+    text-decoration: none;
+    color:#A1A1AA;
+}
+
+.btn2 a{
+    text-decoration: none;
+    color:#ffffff;
+}
+.btn2{
+    background-color:#14B8A6;
+    color:#ffffff;
+    font-size: 16px;
+    padding:8px 16px;
+    margin: 0px 0px 0px 16px;
+}
+.span1{
+    color:#2DD4BF;
+}
+#nav #nav1:hover{
+    background-color:black;
+    color:aliceblue;
+}
+
+#nav #nav3 button:hover{
+     background-color:black;
+    color:aliceblue;
+    border:1px solid white;
+    border-radius:4px;
+}
+#nav #nav3 .btn2:hover{
+    background-color:black;
+    color:aliceblue;
+    font-size: 14px;
+    border:1px solid white;
+    border-radius:4px;
+}
+
+
+                
+    #containt1{
+        width:100%;
+        height:70%;
+        background-color: black;
+        color:white;
+        padding:15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+      #containt1 h1{
+          font-size:30px;
+          color:azure;
+          padding: 10px;
+          margin-top:30px;
+      }
+      #containt1 p{
+         color:white;
+          opacity: 0.9;
+          margin:15px;
+      }
+      #footer{
+        width:100%;
+        height:300px;
+        background-color:#18181B;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+          border-radius: 10px;
+    }
+    #footer ul{
+         display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items: center;
+    }
+    #footer ul li{
+        color:white;
+        list-style: none;
+        padding: 8px;
+    }
+    #footer ul li .second{
+        padding: 20px;
+    }
+    #footer ul li a{
+        padding: 20px;
+        font-size:15px;
+        text-decoration: none;
+        color:white;
+    }
+    #footer ul li .skill{
+        font-weight:bold;
+        color:aliceblue;
+        display: inline;
+        font-size:18px;
+    }
+    #footer ul li .rise{
+        font-weight:bold;
+        color:#2DD4BF;
+        display: inline;
+        font-size:18px;
+    }
+    #footer ul .footer-item{
+        font-weight: bold;
+    }
+    .last-section{
+        width:100%;
+        height:40px;
+        background-color: black;
+        color:#A1A1AA;
+
+    }
+      .last-section p{
+          text-align: center;
+          padding: 10px;
+      }
+      #up-coming{
+          width: 100%;
+          height: 30%;
+          background-color:#18181B;
+          padding:30px;
+          margin: 10px;
+          border-radius: 10px;
+      }
+      #up-coming h2{
+          text-align: center;
+          margin-top: 30px;
+          font-size:28px;
+          color:azure;
+          padding:5px;
+          margin: 15px;
+      }
+       #up-coming p{
+          color:white;
+          opacity: 0.9;
+           padding: 10px;
+           text-align: center;
+      }
+       #up-coming input{
+          background-color: black;
+         padding:10px 30px 10px 16px;
+           border-radius: 10px;
+           text-align: center;
+           margin-left: 450px;
+           margin-top: 32px;
+           font-size:16px;
+           padding:12px;
+           color: white;
+      }
+      #up-coming button{
+           background-color:#14B8A6;
+            color:#ffffff;
+            font-size: 16px;
+            padding:12px 20px;
+            margin: 0px 0px 0px 16px;
+      }
+      #nav #nav2 .cn{
+          color:#14B8A6;
+          font-weight:650;
+      }
+      #expect{
+          width: 100%;
+          height: 30%;
+          background-color:#000;
+          padding: 25px;
+      }
+       #expect h2{
+          text-align: center;
+          margin-top:15px;
+           color:azure;
+           font-size:30px;
+      }
+      #expect #box{
+           width:100%;
+          height:80%;
+          background-color:#000;
+          padding:15px;
+          display: flex;
+          justify-content: space-around;
+      }
+       #expect #box .box-child{
+           width:30%;
+          height:70%;
+          background-color:rgb(25,25,25);
+          padding: 25px;
+           color:white;
+           border:2px solid #A1A1AA;
+
+           border-radius: 10px;
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+      }
+      #expect #box .box-child h4{
+          color:azure;
+          padding:2px;
+          font-size: 20px;
+      }
+      #expect #box .box-child p{
+          color:#A1A1AA;  
+          font-size:14px;
+      }
+       #faq{
+          width: 100%;
+          height: 30%;
+          background-color:#000;
+          padding: 25px;
+           border-radius: 10px;
+      }
+       #faq h2{
+          text-align: center;
+           margin-top:15px;
+           color:white;
+           font-weight:620;
+           font-size:28px;
+      }
+      #faq #faq-div{
+          height:25%;
+          width: 100%;
+          padding:15px;
+          margin:10px;
+      }
+      #faq #faq-div .faq-div-child{
+           height:80%;
+          width: 100%;
+          background-color:rgb(25,25,25);
+          opacity: 0.8;
+          padding: 20px;
+          color:#A1A1AA;
+          margin:12px;
+          border-radius: 12px;
+      }
+      #faq #faq-div .faq-div-child p{
+          font-size:15px;
+          padding:5px;
+          margin:4px;
+         
+      }
+      #faq #faq-div .faq-div-child h4{
+          padding:5px;
+          margin:4px;
+          color: white;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

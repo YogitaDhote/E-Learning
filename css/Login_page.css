@@ -1,0 +1,130 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        min-height: 100vh;
+        background-color:black;
+        font-family: sans-serif;
+    }
+        #nav{
+      width:100%;
+      height:30%;
+        padding: 10px;
+      background-color:#18181B;
+
+    }  
+    #nav1{
+       width:10%;
+       font-weight: bold;
+       font-size: 20px;
+        color:#FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        padding:20px;
+    }
+
+    #nav1 a{
+        text-decoration: none;
+        color: white;
+    }
+     #nav1 .span1 a{
+        color:#2DD4BF;
+    }
+    #nav #nav1:hover{
+        background-color:black;
+        color:aliceblue;
+    }
+    #mainBox{
+        margin: 100px;
+        display: flex;
+        justify-content:center;
+    }
+    .container{
+        
+        width:400px;
+        height: 420px;
+        border-radius: 12px;
+        
+    }
+    .container form{
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        background-color:#18181B;
+        border-radius: 4px;
+        box-shadow: 0 8px 16px rgba(0,0,0,.3);
+    }
+    .container form h3{
+        text-align: center;
+        margin-bottom: 24px;
+        color:white;
+        font-weight: bold;
+    }
+    .container form .form-control{
+        width:100%;
+        height:40px;
+        background:#18181B;
+        border-radius: 4px;
+        border:1px solid black;
+        margin:10px 0 8px 0;
+        padding: 0 10px;
+    }
+    .container form .btn{
+        margin-left: 50%;
+        transform:translateX(-50%);
+        width:120px;
+        height: 34px;
+        border:none;
+        outline:none;
+        background:#2DD4BF;
+        cursor: pointer;
+        font-size: 16px;
+        color:white;
+        border-radius: 4px;
+        transition: .3s;
+        padding: 8px 150px;
+        text-align: center;
+    }
+    .container form .btn:hover{
+        opacity: .7;
+    }
+    .container form h3 .part1{
+        color:#2DD4BF;
+        display: inline;
+    }
+    .container form h3 .skill{
+        display: inline;
+    }
+    .container form .part2{
+        text-align: center;
+        padding: 10px;
+        color:#A1A1AA;
+    }
+    .container form .form-group label{
+        color:#A1A1AA;
+        padding: 8px;
+    }
+    .container form .form-group{
+        padding: 10px;
+    }
+    .container form .form-group input{
+            color: white
+        }
+    .container form .sign-up{
+        color:#A1A1AA;
+        padding-top: 20px;
+        text-align: center;
+    }
+    .container form .sign-up a{
+        text-decoration: none;
+        color:#2DD4BF;
+        text-align: center;
+    }
+    .container form .btn{
+        display: flex;
+        justify-content: center;
+    } 
